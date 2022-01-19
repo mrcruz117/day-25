@@ -37,6 +37,7 @@ fur_dict = {
 }
 
 df = pandas.DataFrame(fur_dict)
+
 df.to_csv("squirrel_count.csv")
 
 print((fur_dict))
